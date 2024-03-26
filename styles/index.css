@@ -1,0 +1,77 @@
+body{
+  font-family: Roboto;
+  color: black;
+}
+
+.hi {
+  font-size: 40px;
+}
+
+.logo-and-nav ul {
+  list-style-type: none; /* Removes the default list styling */
+  padding: 0; /* Removes the default padding */
+  margin: 0; /* Removes the default margin */
+  display: flex; /* Enables flexbox layout */
+  flex-direction: row; /* Ensures items are laid out in a row */
+  justify-content: flex-end; /* Spaces out the items */
+  padding-top: 6px;
+}
+
+.logo-and-nav ul li {
+  display: inline-block; /* This can help ensure items are in a line, but might be redundant with flexbox */
+}
+
+.logo-and-nav ul li a{
+  text-decoration: none; /* Removes underline from links and possibly style buttons */
+  padding: 10px; /* Adds some padding around the links/buttons for better clickability */
+  cursor: pointer;
+  font-size: medium;
+  padding-bottom: 0px;
+  
+}
+
+.logo-and-nav ul li a:hover {
+  text-decoration: underline;
+  opacity: 30%;
+}
+
+
+.hobby nav{
+  font-size: 22px;
+}
+
+.intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  color: rgb(49, 205, 49);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  font-family: Workbench;
+  
+}
+
+.header-video {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  padding-top: 14px;
+
+}
+
+.video {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+
+
