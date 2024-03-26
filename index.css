@@ -1,0 +1,21 @@
+
+.hi {
+  font-size: larger;
+}
+
+.hobby {
+  font-size: large;
+}
+
+.intro {
+  background-color: black;
+  color: rgb(49, 205, 49);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-family: Workbench;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
